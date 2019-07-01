@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren|Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+.bold { font-weight: bold; }
+.color-green  { color: #72d5a3; }
+.color-yellow { color: #f0dfaf; }
+.color-blue   { color: #94bff3; }
+.color-red    { color: #dca3a3; }
+
+code, pre {
+    font-family: 'Inconsolata', 'Consolas', 'DejaVu Sans Mono', monospace;
+}
+
+html, body, h1, h2 {
+    margin: 0; padding: 0;
+    font-family: 'Oxygen', 'Arial', sans-serif;
+}
+
+html {
+    width: 100%; height: 100%;
+    background: #ffcb32; 
+    background: linear-gradient(to bottom, #ffeb4c 0%, #ffcb32 100%);
+
+    color: #282828;
+}
+
+body {
+    width: 100%; height: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 3em;
+}
+
+section.window {
+    display: flex;
+    flex-direction: column;
+    width: 100%; height: 100%;
+
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+section.window > header {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+
+    background: linear-gradient(to bottom, #495158 0%, #3d4449 100%);    
+    color: white;
+    font-size: 10pt;
+
+    border-bottom: 1px solid #3daee9;
+
+    text-align: center;
+}
+
+section.window > nav {
+    background-color: #eff0f1;
+    padding: 4px;
+
+    font-size: 10pt;
+}
+
+section.window > nav > a {
+    display: inline-block;
+    padding: 4px 16px;
+
+    text-decoration: none;
+    color: #232627;
+}
+
+
+section.window > main {
+    flex-grow: 1;
+    padding: 1.5em;
+
+    background: rgba(44, 44, 44, 0.95);
+    color: #dcdccc;
+    border: 4px solid #eff0f1;
+    border-top: 0;
+    box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.24);
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+section.window > main > code,
+section.window > main > pre {
+    font-size: 1.5em;
+}

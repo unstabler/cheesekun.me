@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=McLaren);
+@font-face {
+	font-family: 'NanumGothic';
+	src: url(/img/NanumGothic.woff) format('woff');}
+
+html{
+	margin: 0; padding: 0;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(202,202,202,1) 100%) no-repeat fixed; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(202,202,202,1))) no-repeat fixed; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(202,202,202,1) 100%) no-repeat fixed; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(202,202,202,1) 100%) no-repeat fixed; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(202,202,202,1) 100%) no-repeat fixed; /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(202,202,202,1) 100%) no-repeat fixed; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cacaca',GradientType=0 ); /* IE6-8 */
+	font-family: 'NanumGothic';
+    width: 100%; height: 100%;
+}
+
+div{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 15px;
+	text-align: right;
+	font-size: 10pt;
+}
+
+div h1, h2{
+	font-family: 'McLaren', cursive;
+	font-size: 30pt;
+	
+	color: #222;
+	
+	text-shadow: 
+	-2px -2px 1px #FFF,  
+     2px -2px 1px #FFF,
+    -2px 2px 1px #FFF,
+     2px 2px 1px #FFF,
+	 3px 3px 6px #666;
+	-ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=-1, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=1, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=0, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=-1, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-1, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color=#FFFFFF)progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color=#000000,Strength=5)";
+	padding: 0;
+	margin: 0;
+}
+div h1{
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+div h2{
+	font-size: 24pt;
+	
+}
+
+span{
+	display: block;
+	position: absolute;
+	height: 110px;
+	width: 70px;
+	top: 45%;
+	left: 50%;
+	margin-top: -55px;
+	margin-left: -35px;
+	font-size: 70pt;
+	text-shadow: 1px 1px 3px #666;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
